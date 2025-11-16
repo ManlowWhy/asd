@@ -1,21 +1,30 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MapaTest;
+using MapaTest;              
+using System.Collections.Generic;
 
 namespace ArbolGen.Tests
 {
     [TestClass]
+    [DoNotParallelize]
     public class GrafoFamiliarTests
     {
         [TestInitialize]
-        public void AntesDeCadaPrueba()
+        public void Limpiar()
         {
             GrafoFamiliar.Nodos.Clear();
         }
 
         [TestMethod]
-        public void AgregarNodo_InsertaEnDiccionario()
+        public void AgregarNodo_InsertaConClaveDeParentezco()
         {
-            var n = new NodoFamiliar { Nombre = "Ana", Parentezco = "Madre" };
+            var n = new NodoFamiliar
+            {
+                Nombre = "Ana",
+                Parentezco = "Madre",
+                Latitud = 10,
+                Longitud = -84
+            };
+
             GrafoFamiliar.AgregarNodo(n);
 
             Assert.IsTrue(GrafoFamiliar.Nodos.ContainsKey("Madre"));
@@ -23,7 +32,7 @@ namespace ArbolGen.Tests
         }
 
         [TestMethod]
-        public void AgregarNodoConPadre_AgregaHijoEnPadre()
+        public void AgregarNodo_ConPadre_CreaRelacionPadreHijo()
         {
             var padre = new NodoFamiliar { Nombre = "Juan", Parentezco = "Padre" };
             GrafoFamiliar.AgregarNodo(padre);
@@ -36,9 +45,10 @@ namespace ArbolGen.Tests
         }
 
         [TestMethod]
-        public void AgregarNodo_PadreNoExiste_NoRevienta()
+        public void AgregarNodo_PadreNoExiste_NoLanzaErrorNiCreaPadreFantasma()
         {
             var hijo = new NodoFamiliar { Nombre = "Luis", Parentezco = "Hijo" };
+
             GrafoFamiliar.AgregarNodo(hijo, "NoExiste");
 
             Assert.IsTrue(GrafoFamiliar.Nodos.ContainsKey("Hijo"));
@@ -46,19 +56,17 @@ namespace ArbolGen.Tests
         }
 
         [TestMethod]
-        public void AgregarNodo_ParentezcoDuplicado_ApuntaAlUltimo()
+        public void AgregarNodo_MismoParentezco_ReemplazaPorUltimoInsertado()
         {
-            var a = new NodoFamiliar { Nombre = "A1", Parentezco = "Madre" };
-            var b = new NodoFamiliar { Nombre = "A2", Parentezco = "Madre" };
-            GrafoFamiliar.AgregarNodo(a);
-            GrafoFamiliar.AgregarNodo(b);
+            var n1 = new NodoFamiliar { Nombre = "Primera", Parentezco = "Madre" };
+            var n2 = new NodoFamiliar { Nombre = "Segunda", Parentezco = "Madre" };
 
-          
-            Assert.IsTrue(GrafoFamiliar.Nodos.ContainsKey("Madre"), "No existe clave 'Madre'.");
-            Assert.AreEqual("A2", GrafoFamiliar.Nodos["Madre"].Nombre, "La clave 'Madre' no apunta al último nodo insertado.");
+            GrafoFamiliar.AgregarNodo(n1);
+            GrafoFamiliar.AgregarNodo(n2);
 
-            
+            // Debe existir solo la clave "Madre" y apuntar al último nodo
+            Assert.IsTrue(GrafoFamiliar.Nodos.ContainsKey("Madre"));
+            Assert.AreEqual("Segunda", GrafoFamiliar.Nodos["Madre"].Nombre);
         }
-
     }
 }

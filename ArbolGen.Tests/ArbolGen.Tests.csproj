@@ -16,4 +16,8 @@
     <ProjectReference Include="..\Genealogical-Tree-main\MapaTest.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
 </Project>
