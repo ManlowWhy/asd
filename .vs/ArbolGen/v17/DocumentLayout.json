@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\GrafoFamiliarTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\formregistro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|solutionrelative:formregistro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\grafofamiliar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|solutionrelative:grafofamiliar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\formmapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|solutionrelative:formmapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\formmapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|solutionrelative:formmapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\nodofamiliar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|solutionrelative:nodofamiliar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3904281A-1CF3-47A1-8F8B-C97AA2176B61}|MapaTest.csproj|solutionrelative:persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\DatosYPersonaTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\MSTestSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\ArbolGen.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\GeoTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DatosYPersonaTests.cs",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\DatosYPersonaTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\DatosYPersonaTests.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\DatosYPersonaTests.cs",
+              "RelativeToolTip": "..\\..\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\DatosYPersonaTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T09:51:13.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GrafoFamiliarTests.cs",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\GrafoFamiliarTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\GrafoFamiliarTests.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\GrafoFamiliarTests.cs",
+              "RelativeToolTip": "..\\..\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\GrafoFamiliarTests.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T09:50:13.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "..\\..\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\MSTestSettings.cs",
+              "RelativeToolTip": "..\\..\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T09:45:43.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ArbolGen.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\ArbolGen.Tests.csproj",
+              "RelativeDocumentMoniker": "..\\..\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\ArbolGen.Tests.csproj",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\ArbolGen.Tests.csproj",
+              "RelativeToolTip": "..\\..\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\ArbolGen.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-16T09:45:50.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GeoTest.cs",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\GeoTest.cs",
+              "RelativeDocumentMoniker": "..\\..\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\GeoTest.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\GeoTest.cs",
+              "RelativeToolTip": "..\\..\\Genealogical-Tree-main (2)\\ArbolGen.Tests\\GeoTest.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T09:45:29.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\Persona.cs",
+              "RelativeDocumentMoniker": "Persona.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\Persona.cs",
+              "RelativeToolTip": "Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:42:37.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NodoFamiliar.cs",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\NodoFamiliar.cs",
+              "RelativeDocumentMoniker": "NodoFamiliar.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\NodoFamiliar.cs",
+              "RelativeToolTip": "NodoFamiliar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:42:33.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GrafoFamiliar.cs",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\GrafoFamiliar.cs",
+              "RelativeDocumentMoniker": "GrafoFamiliar.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\GrafoFamiliar.cs",
+              "RelativeToolTip": "GrafoFamiliar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:42:26.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormRegistro.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\FormRegistro.Designer.cs",
+              "RelativeDocumentMoniker": "FormRegistro.Designer.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\FormRegistro.Designer.cs",
+              "RelativeToolTip": "FormRegistro.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T07:55:41.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormRegistro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\FormRegistro.cs",
+              "RelativeDocumentMoniker": "FormRegistro.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\Genealogical-Tree-main\\FormRegistro.cs [Design]",
+              "RelativeToolTip": "..\\..\\Genealogical-Tree-main (2)\\Genealogical-Tree-main\\FormRegistro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T07:52:05.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\FormRegistro.cs",
+              "RelativeDocumentMoniker": "FormRegistro.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\FormRegistro.cs",
+              "RelativeToolTip": "FormRegistro.cs",
+              "ViewState": "AgIAAKIBAAAAAAAAAAAiwLkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T07:54:08.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:42:38.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormMapa.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\FormMapa.cs",
+              "RelativeDocumentMoniker": "FormMapa.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Genealogical-Tree-main (2)\\Genealogical-Tree-main\\FormMapa.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Genealogical-Tree-main (2)\\Genealogical-Tree-main\\FormMapa.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:42:40.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormMapa.cs",
+              "DocumentMoniker": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\FormMapa.cs",
+              "RelativeDocumentMoniker": "FormMapa.cs",
+              "ToolTip": "C:\\Users\\olman\\Downloads\\Pruevbas arbol aproved\\Genealogical-Tree-main\\FormMapa.cs",
+              "RelativeToolTip": "FormMapa.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAvwHQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T04:28:49.533Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
