@@ -1,6 +1,6 @@
-# Proyecto 1 - Arreglos Paginados
+# Proyecto 1 -Arreglos Paginados
 
-Proyecto desarrollado en C++ para el curso **Algoritmos y Estructuras de Datos II (CE 1103)** del **Instituto Tecnológico de Costa Rica**.
+Proyecto desarrollado en C++ para el curso **Algoritmos y Estructuras de Datos II (CE 1103)** del **ITCR**.
 
 La solución implementa una clase `PagedArray` que permite trabajar con arreglos grandes almacenados en disco, cargando en memoria únicamente un número limitado de páginas a la vez. Sobre esta estructura se ejecutan distintos algoritmos de ordenamiento, manteniendo encapsulada toda la lógica de paginación.
 
@@ -57,17 +57,17 @@ Parámetros:
 
 Tamaños soportados:
 
-- `SMALL`
-- `MEDIUM`
-- `LARGE`
+- `SMALL` para 32 Mb
+- `MEDIUM` para 64 Mb
+- `LARGE` para 128 Mb
 
 Ejemplo de uso:
 
 ~~~bash
-./generator -size SMALL -output datos.bin
+./generator -size SMALL -output entrada.bin
 ~~~
 
-Este comando genera un archivo binario llamado `datos.bin` con números enteros aleatorios.
+Este comando genera un archivo binario llamado `entrada.bin` con números enteros aleatorios.
 
 ## Uso del sorter
 
@@ -92,21 +92,22 @@ Restricciones de uso:
 - `pageSize` debe ser múltiplo de 2
 - el archivo de entrada no se modifica
 - el ordenamiento se realiza sobre el archivo indicado en `-output`
+- para efectos del proyecto se estandarizó un `pageCount` de 4 
 
 ## Algoritmos soportados
 
 El proyecto incluye soporte para los siguientes algoritmos de ordenamiento:
 
-- `MERGE`
-- `QUICK`
-- `DUALQ`
-- `THREEWAY`
-- `INTRO`
+- `MERGE` MergeSort
+- `QUICK` para Quicksort
+- `DUALQ` para Dual Pivot Quicksort
+- `THREEWAY` para 3-Way quicksort
+- `INTRO` para Introsort
 
 Ejemplo de uso:
 
 ~~~bash
-./sorter -input datos.bin -output datos_ordenados.bin -alg QUICK -pageSize 128 -pageCount 4
+./sorter -input entrada.bin -output salida.bin -alg QUICK -pageSize 65536 -pageCount 4
 ~~~
 
 ## Funcionamiento de `PagedArray`
@@ -145,13 +146,13 @@ El nombre generado sigue este formato:
 Por ejemplo, si el archivo de salida es:
 
 ~~~text
-datos_ordenados.bin
+salida.bin
 ~~~
 
 también se genera:
 
 ~~~text
-datos_ordenados.bin.txt
+salida.bin.txt
 ~~~
 
 ### 3. Resumen en consola
@@ -179,13 +180,13 @@ g++ sorter.cpp PagedArray.cpp algoritmos_ordenamiento.cpp -o sorter
 Paso 2: generar un archivo de prueba
 
 ~~~bash
-./generator -size SMALL -output prueba.bin
+./generator -size SMALL -output entrada.bin
 ~~~
 
 Paso 3: ordenar el archivo
 
 ~~~bash
-./sorter -input prueba.bin -output prueba_ordenada.bin -alg INTRO -pageSize 128 -pageCount 4
+./sorter -input entrada.bin -output salida.bin -alg INTRO -pageSize 65536 -pageCount 4
 ~~~
 
 Paso 4: revisar la salida
@@ -193,27 +194,10 @@ Paso 4: revisar la salida
 Archivos generados:
 
 ~~~text
-prueba.bin
-prueba_ordenada.bin
-prueba_ordenada.bin.txt
+entrada.bin
+salida.bin
+salida.bin.txt
 ~~~
-
-## Cómo probar el proyecto
-
-Una forma rápida de verificar que todo funciona correctamente es:
-
-~~~bash
-./generator -size SMALL -output prueba.bin
-./sorter -input prueba.bin -output prueba_ordenada.bin -alg QUICK -pageSize 128 -pageCount 4
-~~~
-
-Luego se puede abrir el archivo:
-
-~~~text
-prueba_ordenada.bin.txt
-~~~
-
-para comprobar que los números estén ordenados ascendentemente.
 
 ## Observaciones finales
 
@@ -225,7 +209,7 @@ para comprobar que los números estén ordenados ascendentemente.
 
 ## Autor
 
-**Nombre:** [Olman Alonso SIbaja Ramos]  
+**Nombre:** Olman Alonso SIbaja Ramos  
 **Curso:** Algoritmos y Estructuras de Datos II (CE 1103)  
 **Institución:** Instituto Tecnológico de Costa Rica  
 **Semestre:** I Semestre 2026
