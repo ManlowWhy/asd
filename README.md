@@ -98,7 +98,7 @@ Restricciones de uso:
 
 El proyecto incluye soporte para los siguientes algoritmos de ordenamiento:
 
-- `MERGE` MergeSort
+- `MERGE` para Natural MergeSort
 - `QUICK` para Quicksort
 - `DUALQ` para Dual Pivot Quicksort
 - `THREEWAY` para 3-Way quicksort
