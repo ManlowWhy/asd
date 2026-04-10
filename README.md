@@ -215,25 +215,6 @@ prueba_ordenada.bin.txt
 
 para comprobar que los números estén ordenados ascendentemente.
 
-## Archivos que deben incluirse en el repositorio
-
-Según lo solicitado para la entrega, el repositorio debe incluir:
-
-- archivos fuente `.cpp`
-- archivos de encabezado `.hpp`
-- archivos necesarios para compilar
-- este `README.md`
-- archivos pequeños de salida de ejemplo, si se desea mostrar pruebas
-
-## Archivos que no deben incluirse
-
-No se deben subir al repositorio:
-
-- ejecutables compilados
-- archivos objeto
-- binarios grandes de prueba
-- archivos temporales generados durante la ejecución
-
 ## Observaciones finales
 
 - `generator` produce archivos binarios puros, no texto
@@ -244,7 +225,7 @@ No se deben subir al repositorio:
 
 ## Autor
 
-**Nombre:** [Tu nombre aquí]  
+**Nombre:** [Olman Alonso SIbaja Ramos]  
 **Curso:** Algoritmos y Estructuras de Datos II (CE 1103)  
 **Institución:** Instituto Tecnológico de Costa Rica  
 **Semestre:** I Semestre 2026
